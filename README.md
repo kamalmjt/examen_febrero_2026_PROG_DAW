@@ -260,7 +260,7 @@ public class Ejercicio2 {
 
 ### Pregunta del Examen
 
-Desarrollar una aplicación para la gestión de productos, utilizando las clases `Producto` y `Principal`.
+Desarrollar una aplicación para la gestión de productos, utilizando las clases `Producto` y `Principal`, organizadas en paquetes.
 
 La clase `Producto` debe tener:
 - Atributos: `nombre` (String), `categoria` (String), `precio` (double), `disponible` (boolean).
@@ -283,6 +283,8 @@ La clase `Principal` debe:
 - Imprimir la información de los productos y el total de productos creados.
 
 ### Solución
+
+Las clases `Principal` y `Producto` están organizadas en los paquetes `Ejercicio3.modelo` y `Ejercicio3.producto` respectivamente.
 
 #### `Producto.java`
 
