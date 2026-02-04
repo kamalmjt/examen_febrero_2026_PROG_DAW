@@ -12,8 +12,8 @@ La clase `VehiculoElectrico` debe contener:
 - Atributos: `modelo` (String), `bateria` (double, porcentaje actual), `consumoKm` (double, consumo por kilómetro), `kilometrosRecorridos` (double).
 - Constructor: Que inicialice el `modelo` y el `consumoKm`. La `bateria` debe inicializarse al 100% y `kilometrosRecorridos` a 0.
 - Métodos:
-    - `recorrer(double kilometros)`: Actualiza la batería y los kilómetros recorridos. La batería no puede ser inferior a 0.
-    - `recargar(double porcentaje)`: Aumenta el porcentaje de batería. La batería no puede superar el 100%.
+    - `recorrer(double kilometros)`: Actualiza la batería y los kilómetros recorridos. La batería no puede ser inferior a 0. **No se deben usar sentencias `if` para controlar este límite, solo `Math.max` o `Math.min`.**
+    - `recargar(double porcentaje)`: Aumenta el porcentaje de batería. La batería no puede superar el 100%. **No se deben usar sentencias `if` para controlar este límite, solo `Math.max` o `Math.min`.**
     - `mostrarInformacion()`: Muestra por consola el modelo, nivel actual de batería y kilómetros totales recorridos.
     - `estadoBateria()`: Devuelve un String indicando el estado de la batería: "BUENA" (>=60%), "MEDIA" (20%-59%), "BAJA" (<20%).
 
